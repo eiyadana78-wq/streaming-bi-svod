@@ -24,6 +24,7 @@ Movies and TV Shows on Streaming Platforms dataset.
 - Investing in exclusive originals and targeted licensing could drive a projected 7% subscriber increase (64.1M to 68.6M), translating to roughly $650M in additional annual revenue.
   
 ## Repository Structure 
+```
 streaming-bi-svod/
 │
 ├── data/
@@ -38,6 +39,8 @@ streaming-bi-svod/
 │   └── ...
 ├── README.md
 └── requirements.txt
+...
+​```
 
 ## Tools Used 
 Python, Pandas, Matplotlib, Jupyter Notebook ​

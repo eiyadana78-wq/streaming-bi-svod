@@ -39,8 +39,7 @@ streaming-bi-svod/
 │   └── ...
 ├── README.md
 └── requirements.txt
-...
-​```
+
 
 ## Tools Used 
 Python, Pandas, Matplotlib, Jupyter Notebook ​

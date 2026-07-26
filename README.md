@@ -16,20 +16,28 @@ Movies and TV Shows on Streaming Platforms dataset.
 - Strategic Recommendation
 
 ## Key Findings 
-- Hulu achieves the highest average RottenTomatoes scores among the platforms compared, for both movies and TV shows
-- Hulu's content library is smaller than Netflix's and Prime Video's, particularly for movies
-- Buyer power and competitive rivalry in streaming are very high, giving consumers strong leverage over platform choice
-- Hulu's key strengths include a large subscriber base and bundled offerings with Disney+ and ESPN, while its main weakness is a smaller,       primarily U.S.-only content library. 
-- Expanding content variety could reduce churn from 4.9% to 2%, retaining an estimated ~1.86M additional subscribers annually
-
+- Across 15,551 movie and TV titles benchmarked on Netflix, Hulu, Prime Video, and Disney+, Hulu ranks third in catalog size (2,668 titles), behind Prime Video (5,944) and Netflix (5,666), and ahead of Disney+ (1,273). 
+- Hulu earns the highest average Rotten Tomatoes score for movies (60.4) of any platform, and the second-highest for TV shows (52.8), just behind Netflix (53.6) — its smaller catalog doesn't come at the cost of quality.
+- Hulu's library is TV-heavy: 61% of its catalog is TV shows (1,621 of 2,668 titles), with reality TV as the dominant genre (41% of its top-10 genre mix, 984 titles).
+- Porter's Five Forces analysis shows very high competitive rivalry, buyer power, and threat of substitutes in streaming, giving consumers strong leverage and pushing platforms to compete on exclusive content and pricing. 
+- SWOT analysis highlights Hulu's Disney+/ESPN bundling and distinct Reality TV/Drama identity as key strengths, against a smaller, less globally diverse library as its main weakness. 
+- Investing in exclusive originals and targeted licensing could drive a projected 7% subscriber increase (64.1M to 68.6M), translating to roughly $650M in additional annual revenue.
+  
 ## Repository Structure 
-streaming-bi-template/
-├─ notebooks/        # Jupyter notebooks
-├─ data/             # Raw / interim data (excluded from git by default)
-├─ src/              # Reusable helper functions
-├─ figures/          # Exported charts
-├─ requirements.txt  # Python dependencies
-└─ README.md         # This file
+streaming-bi-svod/
+│
+├── data/
+├── notebooks/
+│   ├── 01_Data_Cleaning.ipynb
+│   ├── 02_Exploratory_Data_Analysis.ipynb
+│   └── 03_Platform-Level_Content_Strategy_Analysis.ipynb
+├── figures/
+│   ├── catalog_size_comparison.png
+│   ├── genre_distribution.png
+│   ├── content_by_year.png
+│   └── ...
+├── README.md
+└── requirements.txt
 
 ## Tools Used 
 Python, Pandas, Matplotlib, Jupyter Notebook ​

@@ -28,17 +28,28 @@ Movies and TV Shows on Streaming Platforms dataset.
 streaming-bi-svod/
 │
 ├── data/
-├── notebooks/
-│   ├── 01_Data_Cleaning.ipynb
-│   ├── 02_Exploratory_Data_Analysis.ipynb
-│   └── 03_Platform-Level_Content_Strategy_Analysis.ipynb
+│   ├── cleaned/
+│   └── raw/
+│
 ├── figures/
-│   ├── catalog_size_comparison.png
-│   ├── genre_distribution.png
-│   ├── content_by_year.png
-│   └── ...
-├── README.md
-└── requirements.txt
+│   ├── Total_Catalog_Size.png
+│   ├── Content_Volume_by_Platform_and_Type.png
+│   ├── Hulu_Top_10_Genres.png
+│   ├── Hulu_Release_Year_Distribution.png
+│   ├── Hulu_Movie_and_TVShow_Count.png
+│   └── Rotten_Tomatoes_Score_by_Platform.png
+│
+├── notebooks/
+│   ├── 01_Data Cleaning.ipynb
+│   ├── 02_Exploratory Data Analysis.ipynb
+│   └── 03_Platform-Level Content Strategy Analysis.ipynb
+│
+├── presentation/
+│   └── Strategic_Analysis_Of_Hulu.pptx
+│
+│
+└── README.md
+```
 
 
 ## Tools Used 
